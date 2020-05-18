@@ -3,5 +3,11 @@
 }
 .custom{
     padding: 75px 0px 0px 0px;
-    
+
+}
+.brand-caption{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
 }
