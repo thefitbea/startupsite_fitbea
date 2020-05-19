@@ -1,17 +1,6 @@
 #title{
     background-color: #ff4c68;
 }
-.custom{
-    padding: 75px 0px 0px 0px;
-
-}
-.brand-caption{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: 900;#title{
-    background-color: #ff4c68;
-}
 
 body{
     font-family: 'Montserrat' ,sans-serif;
@@ -45,6 +34,39 @@ body{
     margin: 5% 3% 5% 0px;
 }
 
+.features-heading{
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.features-heading-description{
+    color: #8f8f8f;
+}
+
+.features-list{
+    padding: 10%;
+}
+
+.features-row{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+/* overides fontawesome */
+.features-icon{
+    color: #ef8172;
+                        /* .my-nice-button>i { color: black; } */
+                        /* This will make any icon that is a direct descendant of your button black. */
+    font-size: 4rem;
+    position: absolute;
+    top: 5%;
+}
+.features-icon:hover{
+    color: #ff4c68;
+}
+
 /* overide Bootstrap */
 .nav-link{
     font-size: 1.2rem;
@@ -72,6 +94,4 @@ transform:rotate(20deg); /* Equal to rotateZ(45deg) */
 /* position: absolute;
 top: 100px; */
 width: 60%;
-}
-
 }
