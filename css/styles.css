@@ -1,5 +1,5 @@
 #title{
-    background-color: #ff4c68;
+    background-color: ##00d1b2;
 }
 
 body{
@@ -52,7 +52,7 @@ body{
 
 /* overides fontawesome */
 .features-icon{
-    color: #ef8172;
+    color: #72e0ef;
                         /* .my-nice-button>i { color: black; } */
                         /* This will make any icon that is a direct descendant of your button black. */
     /* font-size: 4rem; */
@@ -61,7 +61,7 @@ body{
     top: 5%; */
 }
 .features-icon:hover{
-    color: #ff4c68;
+    color: #72efc0;
 }
 
 /* overide Bootstrap */
