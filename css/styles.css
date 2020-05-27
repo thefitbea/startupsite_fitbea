@@ -107,5 +107,12 @@ top: 100px; */
     padding: 7% 15%;
     text-align: center;
     background-color: #72e0ef;
+    color: #fff;
+}
 
+.founder-text{
+    font-family: "Montserrat" , sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
 }
