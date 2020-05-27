@@ -91,12 +91,21 @@ body{
 
 .phone{
 /* background-color:lightblue; */
-transform:rotate(20deg); /* Equal to rotateZ(45deg) */
+    transform:rotate(20deg); /* Equal to rotateZ(45deg) */
 /* position: absolute;
 top: 100px; */
-width: 60%;
+    width: 60%;
 }
 
 .second-section{
     padding: 7% 15%;
+}
+
+/* founders */
+
+#founders{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #72e0ef;
+
 }
