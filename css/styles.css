@@ -122,3 +122,14 @@ top: 100px; */
     /* border-radius: 100%; */  /* use bootstrap instead by try fixing issues of it */
     margin: 20px;
 }
+
+#press{
+    background-color: #72e0ef;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.media-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
