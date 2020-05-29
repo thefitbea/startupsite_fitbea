@@ -181,3 +181,14 @@ top: 100px; */
   color: #fff;
 
 }
+
+/* Footer */
+.footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15% 3%;
+}
+
+.social{
+  padding: 1% 1% 3%;
+}
