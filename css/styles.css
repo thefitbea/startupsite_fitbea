@@ -165,3 +165,19 @@ top: 100px; */
         transform: rotate(0);
     }
 }
+
+/* CALL TO ACTION */
+.action-call{
+    background-color: #4CDEC9;
+    text-align: center;
+    padding: 7% 15% 3%;
+}
+
+.call-to-action-caption{
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+
+}
