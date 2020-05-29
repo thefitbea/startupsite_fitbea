@@ -152,3 +152,16 @@ top: 100px; */
 .pricing-column{
     padding: 3% 2%;
 }
+
+/* MEDIA QUERY BREAKPOINT */
+
+@media (max-width: 1045px) {
+    .brand-caption{
+        text-align: center;
+    }
+
+    .phone{
+        position: static;
+        transform: rotate(0);
+    }
+}
