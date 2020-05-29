@@ -97,6 +97,7 @@ body{
 top: 100px; */
     width: 60%;
     position: absolute;
+    right: 25%;
     z-index: 1;
 }
 
