@@ -19,11 +19,27 @@
   <!--Embedded fonts-->
   <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 
   <title>Fitbea-Helping people to be fit</title>
 </head>
 
 <body>
+
+  <!-- Preloader Start -->
+  <!-- <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+          <div class="preloader-inner position-relative">
+              <div class="preloader-circle"></div>
+              <div class="preloader-img pere-text">
+                  <img src="img/loader.jpg" alt="">
+              </div>
+          </div>
+      </div>
+  </div> -->
+  <!-- Preloader Start -->
   <!-- CYAN + WHITE color scheme -->
 
   <section class="top-section" id="title">
@@ -39,8 +55,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarToggler01">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li> -->
+            <li class="nav-item"><a class="nav-link" href="#founders">Team Fitbea</a></li>
             <li>
             <li class="nav-item drop-down">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -55,7 +72,7 @@
               </div>
             </li>
             <li>
-            <li class="nav-item"><a class="nav-link" href="#founders">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -66,8 +83,16 @@
         <!-- Title -->
         <div class="col-lg-6 col-md-12 col-sm-12">
           <h1 class="brand-caption">We will help you become fit without breaking a sweat.</h1>
-          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
-          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <form id="mc-form" class="invite-form" novalidate="true">
+                    <span class="invite-input-wrapper input">
+                      <!-- <h3>Subscribe to our free newsletter</h3> -->
+                      <input type="email" id="mc_email" placeholder="Enter your email here" class="invite-input" name="EMAIL">
+                    </span>
+                    <label class="padding-top20" id="mc_notification"></label>
+                </form>
+                <button type="submit" class="btn btn-outline-light btn-lg download-button submit"> Subscribe Now</button>
+          <!-- <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button> -->
 
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
@@ -90,19 +115,19 @@
         <div class="col-lg-4 col-md-12 col-sm-12 features-list">
           <i class="fas fa-check-circle fa-4x features-icon"></i>
           <h3 class="features-heading">Easy to use.</h3>
-          <p class="features-heading-description">So easy to use, even your dog could do it.</p>
+          <p class="features-heading-description">So easy to use, even a child can use our app. Give it a try! If you need any help feel free to contact us anytime.</p>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 features-list">
           <i class="fas fa-bullseye fa-4x features-icon"></i>
-          <h3 class="features-heading">Elite Clientele</h3>
-          <p class="features-heading-description">We have all the features, the greatest features.</p>
+          <h3 class="features-heading">All in one App</h3>
+          <p class="features-heading-description">You only need our app for all your fitness needs. Get recipes, track diet, receive Expert Coaching, any more.</p>
         </div>
 
 
         <div class="col-lg-4 col-md-12 col-sm-12 features-list">
           <i class="fas fa-heart fa-4x features-icon"></i>
-          <h3 class="features-heading">Guaranteed to work.</h3>
-          <p class="features-heading-description">Find the feature of your life or your money back.</p>
+          <h3 class="features-heading">Making you fit.</h3>
+          <p class="features-heading-description">We are with you in your fitness journey, because we too are passionate to be fit ourselves.</p>
         </div>
       </div>
     </div>
@@ -118,17 +143,17 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
 
-      <h2 class="founder-text">I no longer have to find other feature for love. I've found the hottest features on Fitbea. Nice.</h2>
+      <h2 class="founder-text">Hi, I co-founded Fitbea so that anyone can become fit easily, If it's to either lose or to gain some healthy weight, Fitbea got you covered.</h2>
       <!-- <img class="founder-image" src="images/woman.jpg" alt="woman-profile"> -->
       <img class="founder-image rounded-circle z-depth-2 img-fluid .zoom" src="images/hari.jpg" alt="hari-profile">   <!-- discarded as not working properly -->
-      <em>Harikrishnan, Kerala</em>
+      <em>Harikrishnan, Co-founder</em>
 
     </div>
     <div class="carousel-item">
 
-      <h2 class="founder-text">I used to be so lonely, but with Fitbea's help, I've found the love of my life. I think.</h2>
+      <h2 class="founder-text">Hey.</h2>
       <img class="founder-image rounded-circle z-depth-2 img-fluid .zoom" src="images/rahul.jpg" alt="rahul-profile">
-      <em>Rahul, Kerala</em>
+      <em>Rahul, Co-founder</em>
 
     </div>
   </div>
@@ -146,34 +171,34 @@
 
   <!-- Press -->
 
-  <section class="media-press" id="press">
+  <!-- <section class="media-press" id="press">
     <img class="media-image" src="images/techcrunch.png" alt="tc-logo">
     <img class="media-image" src="images/tnw.png" alt="tnw-logo">
     <img class="media-image" src="images/bizinsider.png" alt="biz-insider-logo">
     <img class="media-image" src="images/mashable.png" alt="mashable-logo">
 
-  </section>
+  </section> -->
 
 
-  <!-- Pricing -->
+  <!-- Features -->
 
-  <section id="pricing">
+  <section id="features">
 
-    <h2>A Plan for Every human's Needs</h2>
-    <p>Simple and affordable price plans for you.</p>
+    <h2 class="why-us">Why Choose Us?<br>We got you covered for all your fitness needs</h2>
+    <p class="why-us-ans">Push Your Limits Forward</p>
 
 <div class="row">
   <!-- <div class="card-deck"> -->
-  <div class="pricing-column col-lg-4 col-md-6 col-sm-12">
+  <div class="features-column col-lg-4 col-md-6 col-sm-12">
     <div class="card">
       <div class="card-header">
         <h3>Try</h3>
       </div>
       <div class="card-body">
         <h2>Free</h2>
-        <p>5 Matches Per Day</p>
-        <p>10 Messages Per Day</p>
-        <p>Unlimited App Usage</p>
+        <p>Track your diet accurately</p>
+        <p>Be part of the community and earn gifts</p>
+        <p>Get your favourite fitness products discounted</p>
         <button type="button" class="btn btn-lg btn-block btn-outline-dark">Sign up for free</button>
       </div>
       <!-- <div class="card-footer">
@@ -181,16 +206,16 @@
     </div>
   </div>
 
-<div class="pricing-column col-lg-4 col-md-6 col-sm-12">
+<div class="features-column col-lg-4 col-md-6 col-sm-12">
   <div class="card">
     <div class="card-header">
-      <h3>Monthly</h3>
+      <h3>Pro</h3>
     </div>
     <div class="card-body">
-      <h2>$49 / mo</h2>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
+      <h2>$19 / mo</h2>
+      <p>Free plan plus in-house recipes</p>
+      <p>Receive nutritional coaching</p>
+      <p>Offers on Gym and other memberships</p>
       <button type="button" class="btn btn-lg btn-block btn-dark">Get started</button>
     </div>
     <!-- <div class="card-footer">
@@ -199,17 +224,16 @@
 </div>
 
 
-    <div class="pricing-column col-lg-4 col-md-12 col-sm-12">
+    <div class="features-column col-lg-4 col-md-12 col-sm-12">
       <div class="card">
         <div class="card-header">
-          <h3>Yearly</h3>
+          <h3>Premium</h3>
         </div>
         <div class="card-body">
-          <h2>$99 / mo</h2>
-          <p>Pirority Listing</p>
-          <p>Unlimited Matches</p>
-          <p>Unlimited Messages</p>
-          <p>Unlimited App Usage</p>
+          <h2>$39 / mo</h2>
+          <p>Pro plan plus exercise coaching</p>
+          <p>Offers on FitInsurance</p>
+          <p>Fully tailored plan to suit your needs</p>
           <button type="button" class="btn btn-lg btn-block btn-dark">No Worries</button>
         </div>
         <!-- <div class="card-footer">
@@ -228,9 +252,9 @@
 
   <section class="action-call" id="cta">
 
-    <h3 class="call-to-action-caption">Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
-    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+    <h3 class="call-to-action-caption">Start your fitness journey with us.</h3>
+    <button type="button" class="btn btn-outline-light btn-lg download-button" title="Android"><i class="fab fa-google-play"></i> Download</button>
+    <button type="button" class="btn btn-dark btn-lg download-button" title="iPhone"><i class="fab fa-apple"></i> Download</button>
 
   </section>
 
@@ -238,13 +262,23 @@
   <!-- Footer -->
 
   <footer class="contact-footer" id="footer">
-      <a href="https://twitter.com"><i class="fab fa-twitter social"></i></a>
-      <a href="https://facebook.com"><i class="fab fa-facebook-f social"></i></a>
-      <a href="https://instagram.com"><i class="fab fa-instagram social"></i></a></a>
-      <a href="mailto:thefitbea@gmail.com"><i class="fas fa-envelope social"></i></a>
-    <p>© Copyright 2020 Fitbea</p>
+      <a href="https://twitter.com" title="Twitter"><i class="fab fa-twitter social"></i></a>
+      <a href="https://facebook.com" title="Facebook"><i class="fab fa-facebook-f social"></i></a>
+      <a href="https://instagram.com" title="Instagram"><i class="fab fa-instagram social"></i></a></a>
+      <a href="mailto:thefitbea@gmail.com" title="e-Mail"><i class="fas fa-envelope social"></i></a>
+      <!-- Scroll Up -->
+      <div id="" >
+          <a id="back-top" class="top-arrow" title="Go to Top" href="#title"> <i class="fas fa-level-up-alt "></i></a>
+      </div>
+    <p class="copyright">© Copyright 2020 Fitbea</p>
+    <!-- <span class="made-with">
+    Made with <i class="fa fa-heart pulse heart-beat"></i> in <a class="made-place hari-web" href="" target="_blank">Kerala</a>
+</span> -->
+    <p class="maker-info">Website Designed by <a class="hari-web" href="../index.html"> Harikrishnan</a></p>
 
   </footer>
+
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
