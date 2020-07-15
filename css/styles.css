@@ -1,81 +1,105 @@
-#title{
-    /* background-color: #ff4c68; */
-    background-color: #00d1b2;
+/* ELEMENTS */
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
-body{
-    font-family: 'Montserrat' ,sans-serif;
+h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
-.brand-caption{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
-    color: #fff;
+p {
+  color: #8f8f8f;
 }
 
-.brand-logo{
-    font-family: 'Ubuntu' , sans-serif;
-    font-size: 2.5rem;
-    font-weight: bold;
+/* #title {
+   background-color: #ff4c68;
+} */
+
+#plans {
+  padding: 100px;
 }
 
-.custom{
-
-    padding-top: 5.5rem;
-
+/* SCROLL to top */
+#back-top {
+  transition: all 0.5s;
 }
 
-.container-fluid{
-    padding: 3% 15% 7%;
+/* CLASSES */
+
+/* BRANDING */
+.brand-caption {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+.brand-logo {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* CUSTOM */
+.custom {
+  padding-top: 5.5rem;
+}
+.custom-text-alignment{
+  text-align: left;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
 }
 
 /* ENTER EMAIL FORM */
 .cd-intro .invite-form {
-    position: relative;
-    display: block;
-    margin: 35px auto 0;
-    color: white;
-    font-weight: 300;
-    text-align: center;
-    letter-spacing: 0.05em;
+  position: relative;
+  display: block;
+  margin: 35px auto 0;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 0.05em;
 }
+
 .invite-form input {
-    vertical-align: bottom;
-    outline: none;
-    font-family: 'Courier Prime', monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.9em;
-    padding: 13px 15px;
-    box-sizing: border-box;
-    width: 260px;
-    height: 51px;
-    border-radius: 10px 0 10px 0px;/*New Way of defining border Radius*/
-    border: 2px solid white;
-    color: #222 !important;
+  vertical-align: bottom;
+  outline: none;
+  font-family: 'Courier Prime', monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.9em;
+  padding: 13px 15px;
+  box-sizing: border-box;
+  width: 260px;
+  height: 51px;
+  border-radius: 10px 0 10px 0px;
+  /*New Way of defining border Radius*/
+  border: 2px solid white;
+  color: #222 !important;
 }
 
 .invite-form button {
-    vertical-align: top;
-    border: 0;
-    background-color: #000;
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    line-height: 1.5rem;
-    font-size: 14px;
-    letter-spacing: 0.05em;
-    box-sizing: border-box;
-    padding: 14px 20px;
-    border-radius: 0 4px 4px 0;
-    text-transform: uppercase;
-    outline: none;
-    text-shadow: none;
-    position: relative;
-    left: -5px;
+  vertical-align: top;
+  border: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.5rem;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  box-sizing: border-box;
+  padding: 14px 20px;
+  border-radius: 0 4px 4px 0;
+  text-transform: uppercase;
+  outline: none;
+  text-shadow: none;
+  position: relative;
+  left: -5px;
 }
 
 /* .cd-intro .invite-form {
@@ -84,209 +108,191 @@ body{
     margin: 35px auto 0;
     color: white;
     font-weight: 300;
-    text-align: center;
     letter-spacing: 0.05em;
 } */
-
-.download-button{
-    margin: 5% 3% 5% 0px;
+.download-button {
+  margin: 5% 3% 5% 0px;
 }
 
-
-.features-heading,h2,h3{
-    font-family: 'Montserrat' , sans-serif;
-    font-weight: bold;
-    font-size: 1.5rem;
+/* FEATURES */
+.features-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
-
-.features-heading-description,p{
-    color: #8f8f8f;
+.features-heading-description {
+  color: #8f8f8f;
 }
 
-.features-list{
-    text-align: center;
-    padding: 5%;
+.features-list {
+  padding: 5%;
 }
 
 /* overides fontawesome */
-.features-icon{
-    /* color: #ef8172; */
-    color: #4CDEC9;
-                        /* .my-nice-button>i { color: black; } */
-                        /* This will make any icon that is a direct descendant of your button black. */
-    /* font-size: 4rem; */
-    margin-bottom: 1rem;
-    /* position: absolute;
+.features-icon {
+  /* color: #ef8172; */
+  color: #4CDEC9;
+  /* .my-nice-button>i { color: black; } */
+  /* This will make any icon that is a direct descendant of your button black. */
+  /* font-size: 4rem; */
+  margin-bottom: 1rem;
+  /* position: absolute;
     top: 5%; */
 }
-.features-icon:hover{
-    /* color: #ff4c68; */
-    /* color: #72efc0; */
-    color: #00d1b2;
+
+.features-icon:hover {
+  /* color: #ff4c68; */
+  /* color: #72efc0; */
+  color: #00d1b2;
+}
+
+.features-column {
+  padding: 3% 2%;
 }
 
 /* overide Bootstrap */
-.nav-link{
-    font-size: 1.2rem;
-    font-weight: lighter;
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
 }
 
-.navbar{
-    padding: 0px;
-
+/* NAVIGATION */
+.navbar {
+  padding: 0px;
 }
 
-.nav-item{
-    padding-left: 18px;
-    padding-right: 18px;
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
 }
 
-.dropdown-item{
-    font-size: 1rem;
-    font-weight: lighter;
+.dropdown-item {
+  font-size: 1rem;
+  font-weight: lighter;
 }
 
-.phone{
-/* background-color:lightblue; */
-    transform:rotate(20deg); /* Equal to rotateZ(45deg) */
-/* position: absolute;
+.phone {
+  /* background-color:lightblue; */
+  transform: rotate(20deg);
+  /* Equal to rotateZ(45deg) */
+  /* position: absolute;
 top: 100px; */
-    width: 60%;
-    position: absolute;
-    right: 25%;
-    z-index: 1;
+  width: 60%;
+  position: absolute;
+  right: 25%;
+  z-index: 1;
 }
 
-.second-section{
-    padding: 7% 15%;
-    background-color: #fff;
-    position: relative;
-    z-index: 2;
+.second-section {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
 }
 
-/* founders */
-
-#founders{
-    text-align: center;
-    background-color: #4CDEC9;
-    color: #fff;
+/* SECTIONS-COLORS */
+.colored-section{
+  background-color: #00d1b2;
 }
 
-.founder-text{
-    font-family: "Montserrat" , sans-serif;
-    font-size: 3rem;
-    font-weight: bold;
-    line-height: 1.5;
+.white-section{}
+
+/* FOUNDERS */
+#founders {
+  background-color: #4CDEC9;
+  color: #fff;
 }
 
-.founder-image{
-    width: 10%;
-    /* border-radius: 100%; */  /* use bootstrap instead by try fixing issues of it */
-    margin: 20px;
+.founder-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
-#press{
-    background-color: #4CDEC9;
-    text-align: center;
-    padding-bottom: 3%;
+.founder-image {
+  width: 10%;
+  /* border-radius: 100%; */
+  /* use bootstrap instead by try fixing issues of it */
+  margin: 20px;
 }
 
-.media-image{
-    width: 15%;
-    margin: 20px 20px 50px;
+/* PRESS */
+#press {
+  background-color: #4CDEC9;
+  padding-bottom: 3%;
 }
 
-.carousel-item{
-    padding: 7% 15%;
+.media-image {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 
-#features{
-    padding: 100px;
-    text-align: center;
-}
-
-.features-column{
-    padding: 3% 2%;
-}
-
-/* MEDIA QUERY BREAKPOINT */
-
-@media (max-width: 1045px) {
-    .brand-caption{
-        text-align: center;
-    }
-
-    .phone{
-        position: static;
-        transform: rotate(0);
-    }
-    .custom{
-        text-align: center;
-    }
+.carousel-item {
+  padding: 7% 15%;
 }
 
 /* CALL TO ACTION */
-.action-call{
-    background-color: #4CDEC9;
-    text-align: center;
-    padding: 7% 15% 3%;
+#cta {
+  /* background-color: #4CDEC9; */
+  padding: 7% 15% 3%;
 }
 
-.call-to-action-caption{
-    font-family: "Montserrat", sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
-    color: #fff;
-
+.call-to-action-caption {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
 }
 
-.why-us{
+.why-us {
   line-height: 2;
 }
-.why-us-ans{
+
+.why-us-ans {
   line-height: 2;
 }
+
+.price-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
 /* Footer */
-
-.maker-info{
-    font-family: 'Caveat', cursive;
+.maker-info {
+  font-family: 'Caveat', cursive;
 }
 
-.hari-web, .hari-web:hover{
-    color: #999999;
-    font-size: 1.5rem;
-    text-decoration: none;
-}
-.contact-footer{
-    background-color: #fff;
-    text-align: center;
-    padding: 7% 15% 3%;
+.hari-web, .hari-web:hover {
+  color: #999999;
+  font-size: 1.5rem;
+  text-decoration: none;
 }
 
-.social{
-    padding: 1% 1% 3%;
-    font-size: 1.3rem;
-    color: #000;
+.contact-footer {
+  background-color: #fff;
+  padding: 7% 15% 3%;
 }
 
-/* SCROLL to top */
-#back-top{
-  transition: all 0.5s;
+.social {
+  padding: 1% 1% 3%;
+  font-size: 1.3rem;
+  color: #000;
 }
-.top-arrow{
+
+.top-arrow {
   color: #000;
   font-size: 1.3rem;
 }
-.top-arrow:hover{
+
+.top-arrow:hover {
   color: grey;
   font-size: 1.5rem;
 }
+
 /* MADE WITH LOVE FOOTER */
-
-
-
 /* PRELOADER */
 /* .preloader{
   background-color:#f7f7f7;
@@ -381,5 +387,19 @@ top: 100px; */
 
 
  */
-
 /* PRELOADER */
+/* MEDIA QUERY BREAKPOINT */
+@media (max-width: 1045px) {
+  .brand-caption {
+    text-align: center;
+  }
+
+  .phone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .custom {
+    text-align: center;
+  }
+}
